@@ -1,0 +1,23 @@
+/**
+ * prayers.js — litanies for when 2.4GHz has abandoned you
+ */
+(function () {
+ var PRAYERS = [
+ "O Router in the ceiling, deliver unto me one unbroken Zoom call.",
+ "I shall walk to the corner of the lab where the bars are three.",
+ "Ping 8.8.8.8 and ye shall receive… request timed out.",
+ "Forgive me father, for I have opened 40 Chrome tabs on 1 Mbps.",
+ "The captive portal asks who I am again. Fair.",
+ "Someday fiber will come. Until then, we tether.",
+ "Hotspot of my roommate, hallowed be thy data pack.",
+ "404: campus network not found. But the canteen Wi‑Fi password is still '12345678'.",
+ ];
+
+ function pray() {
+ var i = Math.floor(Math.random() * PRAYERS.length);
+ document.getElementById("msg").textContent = PRAYERS[i];
+ }
+
+ document.getElementById("again").addEventListener("click", pray);
+ pray();
+})();
