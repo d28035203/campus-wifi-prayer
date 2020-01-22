@@ -1,6 +1,6 @@
 # Campus Wi‑Fi Prayer
 
-A single-page tribute to college Wi‑Fi (2019–20).
+A single-page tribute to college Wi‑Fi — dedicated to every campus lab that dropped mid-download.
 
 Refresh for a new prayer. Connection optional. Faith required.
 
