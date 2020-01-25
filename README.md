@@ -1,9 +1,13 @@
-# Campus Wi‑Fi Prayer
+# Campus Wi-Fi Prayer
 
-A single-page tribute to flaky campus Wi‑Fi everywhere.
+A single-page tribute to flaky campus networks everywhere. Refresh (or click) for a new line. Connection optional.
 
-Refresh for a new prayer. Connection optional. Faith required.
+## Run
 
-Open `index.html`.
+```bash
+open index.html
+```
 
-MIT · 2019–2020
+## License
+
+MIT
